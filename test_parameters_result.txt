@@ -1,0 +1,326 @@
+Testing parameters of the Viola-Jones alghorithm:
+  ScaleFactor = 1.02,  minNeighbours = 0
+      mIoU: 0.2955185731789052
+  ScaleFactor = 1.02,  minNeighbours = 1
+      mIoU: 0.239841009032465
+  ScaleFactor = 1.02,  minNeighbours = 2
+      mIoU: 0.24231255038901736
+  ScaleFactor = 1.02,  minNeighbours = 3
+      mIoU: 0.24451174158722075
+  ScaleFactor = 1.02,  minNeighbours = 4
+      mIoU: 0.23689780728651064
+  ScaleFactor = 1.02,  minNeighbours = 5
+      mIoU: 0.2335351227193984
+  ScaleFactor = 1.02,  minNeighbours = 6
+      mIoU: 0.22330724641862876
+  ScaleFactor = 1.02,  minNeighbours = 7
+      mIoU: 0.22174829955837003
+  ScaleFactor = 1.02,  minNeighbours = 8
+      mIoU: 0.20807891219388275
+  ScaleFactor = 1.02,  minNeighbours = 9
+      mIoU: 0.2059166852310619
+  ScaleFactor = 1.05,  minNeighbours = 0
+      mIoU: 0.2998885958597695
+  ScaleFactor = 1.05,  minNeighbours = 1
+      mIoU: 0.23432972770543445
+  ScaleFactor = 1.05,  minNeighbours = 2
+      mIoU: 0.22330812731503236
+  ScaleFactor = 1.05,  minNeighbours = 3
+      mIoU: 0.2120835284288132
+  ScaleFactor = 1.05,  minNeighbours = 4
+      mIoU: 0.20455653515991146
+  ScaleFactor = 1.05,  minNeighbours = 5
+      mIoU: 0.2004415542005699
+  ScaleFactor = 1.05,  minNeighbours = 6
+      mIoU: 0.19407891921064335
+  ScaleFactor = 1.05,  minNeighbours = 7
+      mIoU: 0.19407891921064335
+  ScaleFactor = 1.05,  minNeighbours = 8
+      mIoU: 0.18646095494372575
+  ScaleFactor = 1.05,  minNeighbours = 9
+      mIoU: 0.1829483692121131
+  ScaleFactor = 1.1,  minNeighbours = 0
+      mIoU: 0.2901854099533095
+  ScaleFactor = 1.1,  minNeighbours = 1
+      mIoU: 0.21844198575555693
+  ScaleFactor = 1.1,  minNeighbours = 2
+      mIoU: 0.19956332724551185
+  ScaleFactor = 1.1,  minNeighbours = 3
+      mIoU: 0.19357192085245847
+  ScaleFactor = 1.1,  minNeighbours = 4
+      mIoU: 0.1804918918812659
+  ScaleFactor = 1.1,  minNeighbours = 5
+      mIoU: 0.17422609030432035
+  ScaleFactor = 1.1,  minNeighbours = 6
+      mIoU: 0.16884719372318438
+  ScaleFactor = 1.1,  minNeighbours = 7
+      mIoU: 0.1564617794531311
+  ScaleFactor = 1.1,  minNeighbours = 8
+      mIoU: 0.1466776465652105
+  ScaleFactor = 1.1,  minNeighbours = 9
+      mIoU: 0.13982576261761262
+  ScaleFactor = 1.15,  minNeighbours = 0
+      mIoU: 0.2763008251494189
+  ScaleFactor = 1.15,  minNeighbours = 1
+      mIoU: 0.2093215266948666
+  ScaleFactor = 1.15,  minNeighbours = 2
+      mIoU: 0.18569391577540809
+  ScaleFactor = 1.15,  minNeighbours = 3
+      mIoU: 0.17680981591931488
+  ScaleFactor = 1.15,  minNeighbours = 4
+      mIoU: 0.16078334750098075
+  ScaleFactor = 1.15,  minNeighbours = 5
+      mIoU: 0.1528720050041812
+  ScaleFactor = 1.15,  minNeighbours = 6
+      mIoU: 0.14416477492377897
+  ScaleFactor = 1.15,  minNeighbours = 7
+      mIoU: 0.13273025115966322
+  ScaleFactor = 1.15,  minNeighbours = 8
+      mIoU: 0.1271829686228315
+  ScaleFactor = 1.15,  minNeighbours = 9
+      mIoU: 0.11293667511449351
+  ScaleFactor = 1.2,  minNeighbours = 0
+      mIoU: 0.27315627239567325
+  ScaleFactor = 1.2,  minNeighbours = 1
+      mIoU: 0.1928666670386076
+  ScaleFactor = 1.2,  minNeighbours = 2
+      mIoU: 0.1772535602575627
+  ScaleFactor = 1.2,  minNeighbours = 3
+      mIoU: 0.15973649732759568
+  ScaleFactor = 1.2,  minNeighbours = 4
+      mIoU: 0.1474688619067036
+  ScaleFactor = 1.2,  minNeighbours = 5
+      mIoU: 0.13923066205806892
+  ScaleFactor = 1.2,  minNeighbours = 6
+      mIoU: 0.1287450303902845
+  ScaleFactor = 1.2,  minNeighbours = 7
+      mIoU: 0.1111373900908076
+  ScaleFactor = 1.2,  minNeighbours = 8
+      mIoU: 0.10732860814396374
+  ScaleFactor = 1.2,  minNeighbours = 9
+      mIoU: 0.10462934863499551
+  ScaleFactor = 1.25,  minNeighbours = 0
+      mIoU: 0.2751852191012109
+  ScaleFactor = 1.25,  minNeighbours = 1
+      mIoU: 0.19330745618807316
+  ScaleFactor = 1.25,  minNeighbours = 2
+      mIoU: 0.16032067357014262
+  ScaleFactor = 1.25,  minNeighbours = 3
+      mIoU: 0.14593906713150165
+  ScaleFactor = 1.25,  minNeighbours = 4
+      mIoU: 0.132541181119204
+  ScaleFactor = 1.25,  minNeighbours = 5
+      mIoU: 0.12194757615188917
+  ScaleFactor = 1.25,  minNeighbours = 6
+      mIoU: 0.11033462041148406
+  ScaleFactor = 1.25,  minNeighbours = 7
+      mIoU: 0.1012345465503189
+  ScaleFactor = 1.25,  minNeighbours = 8
+      mIoU: 0.10006252926870766
+  ScaleFactor = 1.25,  minNeighbours = 9
+      mIoU: 0.09536831360693361
+  ScaleFactor = 1.3,  minNeighbours = 0
+      mIoU: 0.27119586894130704
+  ScaleFactor = 1.3,  minNeighbours = 1
+      mIoU: 0.18731346552526631
+  ScaleFactor = 1.3,  minNeighbours = 2
+      mIoU: 0.14990453603520557
+  ScaleFactor = 1.3,  minNeighbours = 3
+      mIoU: 0.13662938544592343
+  ScaleFactor = 1.3,  minNeighbours = 4
+      mIoU: 0.12767835731552837
+  ScaleFactor = 1.3,  minNeighbours = 5
+      mIoU: 0.11548435696332678
+  ScaleFactor = 1.3,  minNeighbours = 6
+      mIoU: 0.10370938774457046
+  ScaleFactor = 1.3,  minNeighbours = 7
+      mIoU: 0.09981627636574193
+  ScaleFactor = 1.3,  minNeighbours = 8
+      mIoU: 0.09431455875272597
+  ScaleFactor = 1.3,  minNeighbours = 9
+      mIoU: 0.09035197246196214
+  ScaleFactor = 1.35,  minNeighbours = 0
+      mIoU: 0.25747250698558366
+  ScaleFactor = 1.35,  minNeighbours = 1
+      mIoU: 0.1923465923339749
+  ScaleFactor = 1.35,  minNeighbours = 2
+      mIoU: 0.1581018053179547
+  ScaleFactor = 1.35,  minNeighbours = 3
+      mIoU: 0.13423570940312896
+  ScaleFactor = 1.35,  minNeighbours = 4
+      mIoU: 0.11056653895130436
+  ScaleFactor = 1.35,  minNeighbours = 5
+      mIoU: 0.09774300683762839
+  ScaleFactor = 1.35,  minNeighbours = 6
+      mIoU: 0.09426524923511002
+  ScaleFactor = 1.35,  minNeighbours = 7
+      mIoU: 0.08894454337462197
+  ScaleFactor = 1.35,  minNeighbours = 8
+      mIoU: 0.08787993873126995
+  ScaleFactor = 1.35,  minNeighbours = 9
+      mIoU: 0.08647951617908087
+  ScaleFactor = 1.4,  minNeighbours = 0
+      mIoU: 0.24829067370033642
+  ScaleFactor = 1.4,  minNeighbours = 1
+      mIoU: 0.1713869140949262
+  ScaleFactor = 1.4,  minNeighbours = 2
+      mIoU: 0.1458589105936948
+  ScaleFactor = 1.4,  minNeighbours = 3
+      mIoU: 0.12201248173240153
+  ScaleFactor = 1.4,  minNeighbours = 4
+      mIoU: 0.10507120210090122
+  ScaleFactor = 1.4,  minNeighbours = 5
+      mIoU: 0.09758893916846813
+  ScaleFactor = 1.4,  minNeighbours = 6
+      mIoU: 0.0947926905139099
+  ScaleFactor = 1.4,  minNeighbours = 7
+      mIoU: 0.09086935742688068
+  ScaleFactor = 1.4,  minNeighbours = 8
+      mIoU: 0.08488772039862633
+  ScaleFactor = 1.4,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.5,  minNeighbours = 0
+      mIoU: 0.22914389475318273
+  ScaleFactor = 1.5,  minNeighbours = 1
+      mIoU: 0.1590833740516128
+  ScaleFactor = 1.5,  minNeighbours = 2
+      mIoU: 0.1335860258650201
+  ScaleFactor = 1.5,  minNeighbours = 3
+      mIoU: 0.11833139187287138
+  ScaleFactor = 1.5,  minNeighbours = 4
+      mIoU: 0.1058654113612482
+  ScaleFactor = 1.5,  minNeighbours = 5
+      mIoU: 0.09379623383381425
+  ScaleFactor = 1.5,  minNeighbours = 6
+      mIoU: 0.08893670159839069
+  ScaleFactor = 1.5,  minNeighbours = 7
+      mIoU: 0.08678573566052747
+  ScaleFactor = 1.5,  minNeighbours = 8
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.5,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.6,  minNeighbours = 0
+      mIoU: 0.22971136036390308
+  ScaleFactor = 1.6,  minNeighbours = 1
+      mIoU: 0.1504568754517786
+  ScaleFactor = 1.6,  minNeighbours = 2
+      mIoU: 0.129191790095815
+  ScaleFactor = 1.6,  minNeighbours = 3
+      mIoU: 0.11571866485648664
+  ScaleFactor = 1.6,  minNeighbours = 4
+      mIoU: 0.10560325551103297
+  ScaleFactor = 1.6,  minNeighbours = 5
+      mIoU: 0.09749715328173547
+  ScaleFactor = 1.6,  minNeighbours = 6
+      mIoU: 0.09032772653024294
+  ScaleFactor = 1.6,  minNeighbours = 7
+      mIoU: 0.08663236059043682
+  ScaleFactor = 1.6,  minNeighbours = 8
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.6,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.7,  minNeighbours = 0
+      mIoU: 0.22474650593961693
+  ScaleFactor = 1.7,  minNeighbours = 1
+      mIoU: 0.14562882256547288
+  ScaleFactor = 1.7,  minNeighbours = 2
+      mIoU: 0.12945866762805888
+  ScaleFactor = 1.7,  minNeighbours = 3
+      mIoU: 0.10980744145548117
+  ScaleFactor = 1.7,  minNeighbours = 4
+      mIoU: 0.10048635879840519
+  ScaleFactor = 1.7,  minNeighbours = 5
+      mIoU: 0.09757620113180801
+  ScaleFactor = 1.7,  minNeighbours = 6
+      mIoU: 0.09149804661063746
+  ScaleFactor = 1.7,  minNeighbours = 7
+      mIoU: 0.0897802175503566
+  ScaleFactor = 1.7,  minNeighbours = 8
+      mIoU: 0.08512421819265698
+  ScaleFactor = 1.7,  minNeighbours = 9
+      mIoU: 0.08512421819265698
+  ScaleFactor = 1.8,  minNeighbours = 0
+      mIoU: 0.19699298812854676
+  ScaleFactor = 1.8,  minNeighbours = 1
+      mIoU: 0.13111572877738553
+  ScaleFactor = 1.8,  minNeighbours = 2
+      mIoU: 0.10972044620437672
+  ScaleFactor = 1.8,  minNeighbours = 3
+      mIoU: 0.09888611387078548
+  ScaleFactor = 1.8,  minNeighbours = 4
+      mIoU: 0.09133929106984034
+  ScaleFactor = 1.8,  minNeighbours = 5
+      mIoU: 0.08988947895405612
+  ScaleFactor = 1.8,  minNeighbours = 6
+      mIoU: 0.08690949468379891
+  ScaleFactor = 1.8,  minNeighbours = 7
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.8,  minNeighbours = 8
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.8,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.9,  minNeighbours = 0
+      mIoU: 0.1818407250871028
+  ScaleFactor = 1.9,  minNeighbours = 1
+      mIoU: 0.12927144260245824
+  ScaleFactor = 1.9,  minNeighbours = 2
+      mIoU: 0.10988370919474807
+  ScaleFactor = 1.9,  minNeighbours = 3
+      mIoU: 0.0975006992484993
+  ScaleFactor = 1.9,  minNeighbours = 4
+      mIoU: 0.08910347858063293
+  ScaleFactor = 1.9,  minNeighbours = 5
+      mIoU: 0.0873638115287034
+  ScaleFactor = 1.9,  minNeighbours = 6
+      mIoU: 0.08524428724987994
+  ScaleFactor = 1.9,  minNeighbours = 7
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.9,  minNeighbours = 8
+      mIoU: 0.08406581953488299
+  ScaleFactor = 1.9,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+  ScaleFactor = 2.0,  minNeighbours = 0
+      mIoU: 0.1631622820437301
+  ScaleFactor = 2.0,  minNeighbours = 1
+      mIoU: 0.12129609127508605
+  ScaleFactor = 2.0,  minNeighbours = 2
+      mIoU: 0.10889964818551269
+  ScaleFactor = 2.0,  minNeighbours = 3
+      mIoU: 0.10133615733082407
+  ScaleFactor = 2.0,  minNeighbours = 4
+      mIoU: 0.08939574831614126
+  ScaleFactor = 2.0,  minNeighbours = 5
+      mIoU: 0.08760792113431919
+  ScaleFactor = 2.0,  minNeighbours = 6
+      mIoU: 0.08507095232181307
+  ScaleFactor = 2.0,  minNeighbours = 7
+      mIoU: 0.08507095232181307
+  ScaleFactor = 2.0,  minNeighbours = 8
+      mIoU: 0.08406581953488299
+  ScaleFactor = 2.0,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+  ScaleFactor = 3.0,  minNeighbours = 0
+      mIoU: 0.16606684294441032
+  ScaleFactor = 3.0,  minNeighbours = 1
+      mIoU: 0.11962969014880145
+  ScaleFactor = 3.0,  minNeighbours = 2
+      mIoU: 0.10650072367366777
+  ScaleFactor = 3.0,  minNeighbours = 3
+      mIoU: 0.09498219975612882
+  ScaleFactor = 3.0,  minNeighbours = 4
+      mIoU: 0.08957473779913189
+  ScaleFactor = 3.0,  minNeighbours = 5
+      mIoU: 0.08506038272026988
+  ScaleFactor = 3.0,  minNeighbours = 6
+      mIoU: 0.08406581953488299
+  ScaleFactor = 3.0,  minNeighbours = 7
+      mIoU: 0.08406581953488299
+  ScaleFactor = 3.0,  minNeighbours = 8
+      mIoU: 0.08406581953488299
+  ScaleFactor = 3.0,  minNeighbours = 9
+      mIoU: 0.08406581953488299
+
+
+Best parameters and average score:
+ScaleFactor = 1.05,  minNeighbours = 0 with mIoU: 0.2998885958597695
+

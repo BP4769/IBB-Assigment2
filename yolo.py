@@ -4,15 +4,17 @@ from tqdm import tqdm
 import glob
 import csv
 from Helpers import *
+import pandas as pd
 
 # Model
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='OneDrive_1_06-11-2022\yolo5s.pt')  # local model
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='Support Files/yolo5s.pt')  # local model
 
 
 # Image
 def yolo_all():
     scores = []
-    for image_path in tqdm( sorted(glob.glob("OneDrive_1_06-11-2022/ear_data/test/*.png")) , desc="Reading images... "):
+    confidence_table = []
+    for image_path in tqdm( sorted(glob.glob("Support Files/ear_data/test/*.png")) , desc="Reading images... "):
         image = cv2.imread(image_path)[..., ::-1]
         imgHeight, imgWidth = image.shape[:2]
         
@@ -28,6 +30,7 @@ def yolo_all():
             iou_score = -1
             if len(results.xyxy[0]) == 0:
                 scores.append(iou_score)
+                confidence_table.append(-1)
             else:
                 iou_score = 0
                 # There is only one ear in each image but in the case the alghorithm would detect more ears I
@@ -36,13 +39,19 @@ def yolo_all():
                     xmin, ymin, xmax, ymax = result[0:4]
                 
                     iou_score = calculate_iou(boxGT, [xmin, ymin, xmax, ymax])
+                    confidence_table.append(result[4].item())
                     scores.append(iou_score)
             
         f.close()
-        
+    df = pd.DataFrame({'IOU': scores,
+                   'Confidence': confidence_table})   
+    df_sorted = df.sort_values(by=['Confidence'], ascending=False)
+    df_sorted.style
+                
     with open('yolo-Scores.csv', 'w', encoding='UTF8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(scores)
+        writer.writerow(confidence_table)
     f.close()
 
 
